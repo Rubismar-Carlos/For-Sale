@@ -1,0 +1,19 @@
+
+#footer {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+#icons {
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+#icons svg {
+    margin-left: 20px;
+    cursor: pointer;
+}

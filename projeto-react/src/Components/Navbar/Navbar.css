@@ -1,0 +1,30 @@
+#nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2em;
+    padding-top: 1em;
+    background-color: lightgray;
+    margin-bottom: 20px;
+}
+
+#nav svg {
+    cursor: pointer;
+}
+
+#nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+#nav-links li {
+    list-style: none;
+}
+
+#nav-links svg {
+    font-size: 1.3em;
+    color: black;
+}
+
+.active {
+     color: red;
+}

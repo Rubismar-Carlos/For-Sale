@@ -1,0 +1,136 @@
+{
+  "cars": [
+    {
+      "nome": "Golf",
+      "marca": "Volkswagen",
+      "comb": "Flex",
+      "ano": "2020",
+      "cor": "Preto",
+      "km": "15.000",
+      "valor": "100.000",
+      "prop": "Rubens",
+      "whats": "62985467897",
+      "id": 1
+    },
+    {
+      "nome": "Corola",
+      "marca": "Toyota",
+      "comb": "Gasolina",
+      "ano": "2015",
+      "cor": "Preto",
+      "km": "50.000",
+      "valor": "120.000",
+      "prop": "Joao",
+      "whats": "62987456231",
+      "id": 2
+    },
+    {
+      "nome": "Ram",
+      "marca": "Dodge",
+      "comb": "Diesel",
+      "ano": "2022",
+      "cor": "Prata",
+      "km": "0",
+      "valor": "250.000",
+      "prop": "Murilo",
+      "whats": "62986531247",
+      "id": 3
+    },
+    {
+      "nome": "Civic",
+      "marca": "Honda",
+      "comb": "Gasolina",
+      "ano": "2020",
+      "cor": "Prata",
+      "km": "10.000",
+      "valor": "65.000",
+      "prop": "Jose",
+      "whats": "62985478965",
+      "id": 4
+    },
+    {
+      "nome": "Celta",
+      "marca": "Chevrolet",
+      "comb": "Flex",
+      "ano": "2021",
+      "cor": "Prata",
+      "km": "10.000",
+      "valor": "35.000",
+      "prop": "Juan",
+      "whats": "62985637489",
+      "id": 5
+    },
+    {
+      "nome": "Vectra",
+      "marca": "Chevrolet",
+      "comb": "Flex",
+      "ano": "2015",
+      "cor": "Preto",
+      "km": "50.458",
+      "valor": "37.500",
+      "prop": "Gilson",
+      "whats": "62985631524",
+      "id": 6
+    },
+    {
+      "nome": "Astra",
+      "marca": "Chevrolet",
+      "comb": "Flex",
+      "ano": "2010",
+      "cor": "Azul",
+      "km": "120.000",
+      "valor": "27.000",
+      "prop": "Leonardo",
+      "whats": "62987451632",
+      "id": 7
+    },
+    {
+      "nome": "Ranger",
+      "marca": "Ford",
+      "comb": "Diesel",
+      "ano": "2020",
+      "cor": "Preta",
+      "km": "12.000",
+      "valor": "150.000",
+      "prop": "Jardel",
+      "whats": "62985631425",
+      "id": 8
+    },
+    {
+      "nome": "Ranger",
+      "marca": "Ford",
+      "comb": "Diesel",
+      "ano": "2020",
+      "cor": "Preta",
+      "km": "12.000",
+      "valor": "150.000",
+      "prop": "Jardel",
+      "whats": "62985631425",
+      "id": 9
+    },
+    {
+      "nome": "Ka",
+      "marca": "Ford",
+      "comb": "Gasolina",
+      "ano": "2008",
+      "cor": "Preta",
+      "km": "90.000",
+      "valor": "17.000",
+      "prop": "Roseane",
+      "whats": "62985632516",
+      "id": 13
+    },
+    {
+      "nome": "Ka",
+      "marca": "Ford",
+      "comb": "Gasolina",
+      "ano": "2008",
+      "cor": "Preta",
+      "km": "90.000",
+      "valor": "17.000",
+      "prop": "Roseane",
+      "whats": "62985632516",
+      "id": 14
+    }
+  ]
+}

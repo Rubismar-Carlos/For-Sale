@@ -1,0 +1,66 @@
+
+
+#car-detalhe {
+    margin: 0 auto;
+    max-width: 350px;
+    height: 500px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px 2px;
+}
+
+#car-detalhe h2 {
+    margin: 10px 0px;
+    border-bottom: 1px solid black;
+}
+
+.car-img {
+    height: 150px;
+    border-bottom: 1px solid black ;
+}
+
+.inf-cars {
+    display: flex;
+    justify-content: center;
+}
+
+.inf-cars svg {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.inf-cars svg:hover {
+    color: red;
+}
+
+.inf-left {
+    padding-left: 5px;
+    text-align: left;
+    width: 150px;
+    height: 100px;
+
+}
+
+.inf-center {
+    text-align: right;
+    width: 50%;
+    height: 200px;
+}
+
+.ctt-car {
+   text-align: center;
+}
+
+.ctt-car p, h4 {
+    margin: 0;
+    padding-top: 10px;
+}
+
+.ctt-car svg {
+    font-size: 1.2em;
+}
+
+.ctt-car svg:hover{
+    color: green;
+}
+
+
