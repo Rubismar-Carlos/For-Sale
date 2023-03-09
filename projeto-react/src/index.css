@@ -1,12 +1,11 @@
 body {
   margin: 0;
   font-family: 'Roboto Condensed', sans-serif;
-  background-color: rgba(211, 211, 211, 0.548);
+  background-color: rgba(128, 128, 128, 0.185);
 }
 
 a {
   text-decoration: none;
-  color: black;
 }
 
 .btn {
@@ -14,6 +13,7 @@ a {
   height: 40px;
   font-size: bold;
   background-color: #0094f6;
+  border: none;
   opacity: 0.8;
   cursor: pointer;
   color: white;
@@ -24,6 +24,7 @@ a {
 .btn:hover {
   opacity: 1;
   transition: 1s;
+  border: 1px solid rgb(0, 255, 0);
 }
 
 .btn svg {
@@ -38,5 +39,12 @@ a {
 }
 
 #container {
-  height: 78vh;
+  height: 81vh;
+}
+
+
+/* page search */
+
+.search-page {
+  height: 80vh;
 }

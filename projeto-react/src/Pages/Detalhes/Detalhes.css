@@ -1,21 +1,25 @@
-
+.car {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
 
 #car-detalhe {
     margin: 0 auto;
     max-width: 350px;
     height: 500px;
-    border: 1px solid black;
-    box-shadow: 1px 1px 10px 2px;
+    border: 2px solid #0094f6;
+    box-shadow: 1px 1px 10px 2px #0094f6;
 }
 
 #car-detalhe h2 {
-    margin: 10px 0px;
-    border-bottom: 1px solid black;
+    margin-top: 30px;
+    padding-top: 50px;
+    color: #0094f6;
 }
 
 .car-img {
     height: 150px;
-    border-bottom: 1px solid black ;
+    border-bottom: 1px solid #0094f6 ;
 }
 
 .inf-cars {
@@ -35,6 +39,7 @@
 .inf-left {
     padding-left: 5px;
     text-align: left;
+    color: green;
     width: 150px;
     height: 100px;
 
@@ -42,6 +47,7 @@
 
 .inf-center {
     text-align: right;
+    color: #0094f6;
     width: 50%;
     height: 200px;
 }
@@ -53,6 +59,7 @@
 .ctt-car p, h4 {
     margin: 0;
     padding-top: 10px;
+    color: #0094f6;
 }
 
 .ctt-car svg {
@@ -60,6 +67,10 @@
 }
 
 .ctt-car svg:hover{
+    color: green;
+}
+
+.link-prop {
     color: green;
 }
 

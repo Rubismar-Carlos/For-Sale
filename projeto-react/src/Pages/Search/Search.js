@@ -19,7 +19,7 @@ const Search = () => {
     const {data: veiculos, loading} = useFetch(url)
 
   return (
-    <div>
+    <div className="search-page">
         {veiculos && <SearchForm />}
         {loading && <p>Buscando...</p>}
         <div className="res-search"> 
@@ -28,11 +28,13 @@ const Search = () => {
         ) }
         {veiculos && veiculos.map((car) => (
         <div className="box-car" key={car.id}>
+          <div className="car details">
             <h2>{car.nome}</h2>
             <h3>{car.marca}</h3>
             <div className="car-ctt">
                 <Link to={`/cars/${car.id}`}>Mais detalhes</Link>
             </div>
+          </div>
         </div>
      ))}  
      </div>    

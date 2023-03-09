@@ -11,8 +11,12 @@
     border-radius: 5px;
     text-align: center;
     margin: auto auto;
-    border: 1px solid black;
-    box-shadow: 1px 1px 10px 2px;
+    border: 2px solid #0094f6;
+    box-shadow: 1px 1px 10px 2px #0094f6;
+    margin-top: 20px;
+    color: #0094f6;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .form-venda {
@@ -27,6 +31,7 @@
     width: 300px;
     border-radius: 5px 0 0 0;
     background-color: transparent;
+    border: 2px solid #0094f6;
 }
 
 input::placeholder {
@@ -55,18 +60,19 @@ select {
     width: 120px;
     height: 30px;
     background-color: transparent;
-    border: 1px;
+    border: 1px solid #0094f6;
+    color: #0094f6;
     font-size: 1em;
     padding-left: 5px;
 }
 
 option {
     width: 1000px;
+    color: #0094f6;
 }
 
 .alert-msg {
     background-color: rgba(255, 255, 0, 0.575);
-    
 }
 
 

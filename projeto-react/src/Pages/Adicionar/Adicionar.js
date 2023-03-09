@@ -106,7 +106,6 @@ const Adicionar = () => {
         <div className="teste">
         <form onSubmit={handleSubmit} className="form-venda">
             <label>
-                <p>Nome</p>
                 <input 
                     type="text" 
                     placeholder='Nome do carro'
@@ -127,14 +126,14 @@ const Adicionar = () => {
                             <option value="Ford">Ford</option>
                             <option value="Bmw">Bmw</option>
                             <option value="Mercedes">Mercedes</option>
-                            <option value="Chevrolet">Chevrolet</option>
+                            <option value="Chevrolet">Chevrolet</option >
                             <option value="Ferrari">Ferrari</option>
                             <option value="Audi">Audi</option>
                             <option value="Dodge">Dodge</option>
                         </select>
                     </div>
                     <div className="select2">
-                        <p>Combustível</p>
+                        <p>Combustivel</p>
                         <select name="combustivel" id="combustivel"
                         onChange={(e) => setComb(e.target.value)}>
                             <option value=""></option>
@@ -147,16 +146,17 @@ const Adicionar = () => {
                 </div>
             </label>
             <label>
-                <p>Ano do veiculo</p>
+ 
                 <input 
                     type="number" 
+                    pattern='^[0-9]{4}$'
                     placeholder='Ano de fabricação ex: 2012'
                     onChange={(e) => setAno(e.target.value)}
                     value={ano}    
                 />
             </label>
             <label>
-                <p>Cor</p>
+
                 <input 
                     type="text" 
                     placeholder='Cor' 
@@ -165,16 +165,14 @@ const Adicionar = () => {
                     />
             </label>
             <label>
-                <p>Quilômetros</p>
                 <input 
                     type="number" 
-                    placeholder='Kilometragem' 
+                    placeholder='Quilômetragem' 
                     onChange={(e) => setKm(e.target.value)}
                     value={km}
                     />
             </label>
             <label>
-                <p>Valor</p>
                 <input 
                     type="number" 
                     placeholder='Valor em R$' 
@@ -184,25 +182,24 @@ const Adicionar = () => {
             </label>
             <h3>Meios de contato</h3>
             <label>
-                <p>Proprietário</p>
                 <input 
                     type="text" 
-                    placeholder='Nome do proprietário do veiculo' 
+                    placeholder='Nome do proprietário' 
                     onChange={(e) => setProp(e.target.value)}
                     value={prop}
                     />
             </label>
             <label>
-                <p>WhatsApp</p>
                 <input 
-                    type="tel" 
-                    placeholder='Ex: (21) 98765-4321' 
+                    type="tel"
+                    name='tel'
+                    placeholder=' WhatsApp Ex: (21) 98765-4321' 
                     onChange={(e) => setWhats(e.target.value)}
                     value={whats}
                     />
             </label>
             {!loading && <button className='btn'>Publicar</button>}
-            {loading && <button className='btn' disabled>Enviando</button>}
+            {loading && <button className='btn' disabled >Enviando</button>}
             <div className="alert-msg">
                 {msg}
             </div>

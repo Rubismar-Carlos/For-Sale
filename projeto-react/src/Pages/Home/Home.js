@@ -17,7 +17,7 @@ const Home = () => {
     const {loading } = useFetch(url)
 
   return (
-    <div>
+    <div className='home'>
       <div className="img">
           <img src={imgHome} alt="For sale" />
       </div>

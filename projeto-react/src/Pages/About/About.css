@@ -6,3 +6,11 @@ p {
 span {
     color: rgba(255, 0, 0, 0.897);
 }
+
+.central-about {
+    padding-top: 100px;
+}
+
+#container a {
+    color: blue;
+}

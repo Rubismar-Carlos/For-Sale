@@ -8,14 +8,23 @@
 }
 
 .box-car {
-    
-    width: 200px;
-    height: 180px;
-    box-shadow: 1px 2px 10px black;
-    border: 1px solid black;
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 1px 2px 10px #0094f6;
+    border: 2px solid #0094f6;
+    border-radius: 20px;
+    color: green;
 }
 
-.box-car:hover {
-    background-color: rgba(255, 255, 0, 0.329);
+
+.link-car {
+    color: #0094f6;
+}
+
+.link-car:hover {
+    padding: 10px;
+    transition: 1s;
+    color: rgb(0, 255, 0);
 }
 
